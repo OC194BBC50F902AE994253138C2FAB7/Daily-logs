@@ -28,13 +28,13 @@ obj1.Age()
 class Private:
     def __init__(self):
         self.__place = 'West Tambaram'
+    def pvt(self):
+        print(self.__place)
 
-class Pvt(Private):
-    def city(self):
-        print(self.place)
+obj2 =  Private()
+obj2.pvt()
 
-obj2 = Pvt()
-obj2.city()
+
 
     
 
