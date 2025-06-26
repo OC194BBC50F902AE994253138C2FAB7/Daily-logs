@@ -13,11 +13,11 @@ class crocus(Flowers):
     def smellsgood(self):
         return "PURPLE CROCUS"
     
-obj1=lilly()
-print(obj1.smellsgood())
+# obj1=lilly()
+# print(obj1.smellsgood())
 
-obj2=crocus()
-print(obj2.smellsgood())
+# obj2=crocus()
+# print(obj2.smellsgood())
 
-     
+
     
