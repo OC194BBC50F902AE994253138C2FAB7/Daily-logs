@@ -11,12 +11,11 @@ obj =  Public()
 obj.display() # or 
 #print(obj.name)--------------------------
 
-#PROTECTED ACCESS MODIFIER 
+# #PROTECTED ACCESS MODIFIER 
 
 class Protected:
     def __init__(self):
         self._age = 19
-
 class Subclass(Protected):
     def Age(self):
         print(self._age)
@@ -28,7 +27,7 @@ obj1.Age()
 
 class Private:
     def __init__(self):
-        self.place = 'West Tambaram'
+        self.__place = 'West Tambaram'
 
 class Pvt(Private):
     def city(self):
